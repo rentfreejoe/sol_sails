@@ -13,7 +13,6 @@
     $: console.log($viewStore)
 </script>
 <main class="container">
-    <Nav/>
     <div class="row flex-center">
         <div class="col-12">
             <h3>auto-deploy?</h3>
