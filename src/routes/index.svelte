@@ -16,7 +16,7 @@
     <Nav/>
     <div class="row flex-center">
         <div class="col-12">
-            <h3>NAME</h3>
+            <h3>auto-deploy?</h3>
             <p>place holder text.</p>
         </div>
     </div>
