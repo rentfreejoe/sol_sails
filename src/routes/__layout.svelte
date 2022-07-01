@@ -1,3 +1,6 @@
+<script>
+  import Nav from "/src/components/nav.svelte";
+</script>
 <Nav/>
 <slot>
 </slot>
