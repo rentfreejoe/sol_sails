@@ -66,6 +66,7 @@
     &:hover {
         opacity: 0.8;
         color: var(--selected-theme);
+        background-color: var(--color-gray); 
 
         path {
             fill: var(--selected-theme);
@@ -117,5 +118,3 @@
     border-color: var(--color-red);
     color: var(--color-red);
 }
-
-button:hover {background-color: var(--color-gray); color: white;};
