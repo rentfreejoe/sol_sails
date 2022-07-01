@@ -6,12 +6,14 @@
   import { page } from "$app/stores"
   import { goto } from "$app/navigation"
 </script>
+<main lass="container">
 <Nav/>
 <slot>
 <Index/>
 <View1/>
 <View2/>
 </slot>
+</main>
 <style lang="scss" global>
     @import "../styles/main.scss";
 </style>
