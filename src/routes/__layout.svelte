@@ -7,8 +7,8 @@
   import { goto } from "$app/navigation"
 </script>
 <Nav/>
-<Index/>
 <slot>
+<Index/>
 <View1/>
 <View2/>
 </slot>
