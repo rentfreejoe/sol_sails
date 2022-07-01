@@ -5,9 +5,9 @@
     import { page } from "$app/stores"
     import { goto } from "$app/navigation"
 </script>
-<main class="container">
+
         <div class="col-12">
             <h3>auto-deploy?</h3>
             <p>place holder text.</p>
         </div>
-</main>
+
