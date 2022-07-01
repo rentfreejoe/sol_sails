@@ -7,7 +7,7 @@
 
     <div class="col-7">
         <button on:click={() => ($viewStore = View1)} class="button button-outline mb-1"
-            addClass="ml-1"
+            addClass="border-green"
             >Whale Tracker</button>
         <button on:click={() => ($viewStore = View2)} class="button button-outline mb-1">You and Them</button>
     </div>
