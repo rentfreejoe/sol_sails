@@ -1,5 +1,5 @@
 <script>
-    import Nav from "/src/routes/nav.svelte";
+    import Nav from "/src/components/nav.svelte";
     import View1 from "/src/routes/influencers.svelte";
     import View2 from "/src/routes/network.svelte";
     import { page } from "$app/stores"
