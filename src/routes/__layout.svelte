@@ -1,4 +1,3 @@
-<Nav/>
 <slot>
     <Nav/>
 </slot>
