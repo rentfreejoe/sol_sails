@@ -1,11 +1,13 @@
 <script>
   import Nav from "/src/routes/nav.svelte";
+  import Index from "/src/routes/index.svelte";
   import View1 from "/src/routes/influencers.svelte";
   import View2 from "/src/routes/network.svelte";
   import { page } from "$app/stores"
   import { goto } from "$app/navigation"
 </script>
 <Nav/>
+<Index/>
 <slot>
 <View1/>
 <View2/>

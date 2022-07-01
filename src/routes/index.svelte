@@ -1,7 +1,9 @@
 <script>
-    import Nav from "/src/components/nav.svelte";
-    import View1 from "/src/components/influencers.svelte";
-    import View2 from "/src/components/network.svelte";
+    import Nav from "/src/routes/nav.svelte";
+    import View1 from "/src/routes/influencers.svelte";
+    import View2 from "/src/routes/network.svelte";
+    import { page } from "$app/stores"
+    import { goto } from "$app/navigation"
 </script>
 <main class="container">
     <div class="row flex-center">
