@@ -6,10 +6,8 @@
     import { goto } from "$app/navigation"
 </script>
 <main class="container">
-    <div class="row flex-center">
         <div class="col-12">
             <h3>auto-deploy?</h3>
             <p>place holder text.</p>
         </div>
-    </div>
 </main>
