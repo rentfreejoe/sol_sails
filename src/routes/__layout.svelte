@@ -1,8 +1,14 @@
 <script>
-  import Nav from "/src/components/nav.svelte";
+  import Nav from "/src/routes/nav.svelte";
+  import View1 from "/src/routes/influencers.svelte";
+  import View2 from "/src/routes/network.svelte";
+  import { page } from "$app/stores"
+  import { goto } from "$app/navigation"
 </script>
 <Nav/>
 <slot>
+<View1/>
+<View2/>
 </slot>
 <style lang="scss" global>
     @import "../styles/main.scss";
