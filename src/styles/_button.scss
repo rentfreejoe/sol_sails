@@ -62,11 +62,6 @@
     svg path {
         fill:  var(--color-text-primary);
     }
-    .active { 
-        opacity: 0.8;
-        color: var(--selected-theme);
-        background-color: var(--color-gray); 
-    }
 
     &:hover {
         opacity: 0.8;
@@ -77,6 +72,12 @@
             fill: var(--selected-theme);
         }
     }
+}
+
+.active { 
+    opacity: 0.8;
+    color: var(--selected-theme);
+    background-color: var(--color-gray); 
 }
 
 .button-light {
