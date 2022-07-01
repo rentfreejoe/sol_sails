@@ -62,7 +62,7 @@
     svg path {
         fill:  var(--color-text-primary);
     }
-    & + .active { 
+    & .active { 
         opacity: 0.8;
         color: var(--selected-theme);
         background-color: var(--color-gray); 

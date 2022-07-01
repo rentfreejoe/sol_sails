@@ -6,10 +6,8 @@
 <div class="row flex-center-end">
 
     <div class="col-7">
-        <button on:click={() => ($viewStore = View1)} class="button button-outline mb-1"
-            addClass="ml-1 border-green"
-            >Whale Tracker</button>
-        <button on:click={() => ($viewStore = View2)} class="button button-outline mb-1">You and Them</button>
+        <button class="button button-outline mb-1" on:click={() => ($viewStore = View1)}>Whale Tracker</button>
+        <button class="button button-outline mb-1" on:click={() => ($viewStore = View2)}>You and Them</button>
     </div>
 
 </div>
