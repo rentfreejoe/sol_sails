@@ -9,11 +9,9 @@
     } else {
         currentView = View2;
     }
-    
     $: console.log($viewStore)
 </script>
 <main class="container">
-    <Nav/>
     <div class="row flex-center">
         <div class="col-12">
             <h3>auto-deploy?</h3>
@@ -22,6 +20,5 @@
     </div>
     <div>
         <svelte:component this = {$viewStore} />
-       
     </div>
 </main>
