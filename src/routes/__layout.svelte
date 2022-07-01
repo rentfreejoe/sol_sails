@@ -1,5 +1,6 @@
 <Nav/>
 <slot>
+    <Nav/>
 </slot>
 
 <style lang="scss" global>
