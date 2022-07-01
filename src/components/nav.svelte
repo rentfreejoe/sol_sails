@@ -6,7 +6,9 @@
 <div class="row flex-center-end">
 
     <div class="col-7">
-        <button class="button button-outline mb-1" on:click={() => ($viewStore = View1)}>Whale Tracker</button>
+        <button class="button button-outline mb-1"
+         class:active={$viewStore === View1}
+         on:click={() => ($viewStore = View1)}>Whale Tracker</button>
         <button class="button button-outline mb-1" on:click={() => ($viewStore = View2)}>You and Them</button>
     </div>
 
