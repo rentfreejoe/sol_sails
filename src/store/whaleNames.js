@@ -1,2 +1,2 @@
-let whaleName = 'joe';
+let whaleName = 'JOE';
 export default whaleName;
