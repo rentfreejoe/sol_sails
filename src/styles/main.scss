@@ -25,21 +25,21 @@ $breakpoints: (
 :root {
     --color-light: rgb(255, 255, 255);
 
-    --color-dark-gray: rgb(.4, .4, .4);
-    --color-gray: #181818;
-    --color-light-gray: #6b6b6b;
+    --color-dark-gray: #3B4252;
+    --color-gray: ##434C5E;
+    --color-light-gray: #4C566A;
 
-    --color-gold: #FFC700;
-    --color-green: #02D980;
-    --color-purple: #9945ff;
+    --color-gold: #EBCB8B;
+    --color-green: #A3BE8C;
+    --color-purple: #B48EAD;
     --color-discord-purple: #6828ffd7;
-    --color-blue: #228fd8;
+    --color-blue: #81A1C1;
 
     // Most body text
     --color-text-primary: var(--color-light-gray);
 
     // Headers and input fields
-    --color-text-light: #e3e3e3;
+    --color-text-light: #ECEFF4;
 
     // Body background
     --color-background: var(--color-dark-gray);
@@ -51,7 +51,7 @@ $breakpoints: (
 // Text
 :root {
     --base-font-size: #{$spacer}px;
-    --font-family:  'Inconsolata', monospace;
+    --font-family:  'Roboto', monospace;
     --font-light: 200;
     --font-regular: 400;
     --font-medium: 500;
@@ -102,7 +102,7 @@ $breakpoints: (
 
 body,
 html {
-    font-family: 'Inconsolata', monospace;
+    font-family: 'Roboto', monospace;
     overflow-x: hidden;
     font-size: var(--base-font-size);
     background: var(--color-background);
