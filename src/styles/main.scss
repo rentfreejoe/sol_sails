@@ -51,7 +51,7 @@ $breakpoints: (
 // Text
 :root {
     --base-font-size: #{$spacer}px;
-    --font-family:  'Sanchez', serif;
+    --font-family:  'Copse', serif;
     --font-light: 200;
     --font-regular: 400;
     --font-medium: 500;
@@ -102,7 +102,7 @@ $breakpoints: (
 
 body,
 html {
-    font-family: 'Sanchez', serif;
+    font-family: 'Copse', serif;
     overflow-x: hidden;
     font-size: var(--base-font-size);
     background: var(--color-background);
